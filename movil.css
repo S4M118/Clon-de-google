@@ -1,0 +1,271 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+html {
+    font-size: 62.5%;
+  }
+
+body {
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.TfmFiApYF1itohHnoJehZQHaIn&pid=Api&P=0");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 170px;
+    height: auto;
+    margin-top: 7px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    
+    margin-right: 10px;
+    color: #000;
+}
+
+nav .nav-right-section .menu-icon {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+main {
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .main-logo {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img {
+    width: 200px;
+}
+
+main .main-input {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container {
+    width: 80%px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input {
+    width: 310px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon {
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+main .main-input .micro-icon {
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+main .main-buttons {
+    width: 300px;
+    margin: 0 auto;
+}
+
+main .main-buttons div {
+    display: inline-block;
+}
+
+main .main-buttons button {
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+
+main .main-buttons button:hover {
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #20212447;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 1px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left {
+    justify-content: left;
+}
+
+footer .footer-right {
+justify-content: right;
+}
+
+footer ul li a {
+    margin: 5px;
+    color: #5f6368;
+}
+
+@media (min-width: 600px) {
+
+    * {
+        font-size: 1.1rem;
+    }
+
+    body {
+        height: 450px;
+        background-image: url("http://4.bp.blogspot.com/-RtdmnYeA_bQ/TzJZ20UPu-I/AAAAAAAAAUM/znAnOwRXuMk/s1600/apple.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    header nav .nav-right-section {
+    width: 190px;
+    }
+
+    main {
+    margin-top: 100px;
+    }
+
+    main .main-logo img {
+        width: 270px;
+    }
+    
+    main .main-input {
+        width: 530px;
+        margin: 0 auto;
+        margin-bottom: 35px;
+    }
+    
+    main .main-input-container {
+        width: 525px;
+        border-radius: 100px;
+        border: 1px solid #dfe1e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    main .main-input input {
+        width: 450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+    main .main-buttons {
+        width: 530px;
+        margin: 0 auto;
+    }
+
+    footer {
+       grid-template-columns: 1fr 1fr; 
+    }
+    
+    footer ul {
+        margin: 10px;
+    }
+
+    footer ul li a {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 800px) {
+    * {
+        font-size: 1.3rem;
+    }
+
+    body {
+        height: 500px;
+        background-image: url("http://blog.iakaa.com/wp-content/uploads/2015/04/Windows_Logo-2001.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+
+    header nav .nav-right-section {
+        width: 200px;
+    }
+
+    main {
+        margin-top: 50px;
+    }
+
+    main .main-logo img {
+        width: 270px;
+    }
+}
